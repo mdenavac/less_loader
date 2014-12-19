@@ -1,0 +1,9 @@
+<apex:component >
+    <script>
+    	window.less_options =  {
+            compiler: 	"{!$Resource.less_compiler}",
+            files:		[ "{!$Resource.less_hyx}", "{!$Resource.less_os}"]
+        }
+    </script>
+    <apex:includeScript value="{!$Resource.less_loader}" loadOnReady="true"/>
+</apex:component>
