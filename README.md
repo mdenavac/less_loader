@@ -16,9 +16,9 @@ Installation
 2. Create "text/css" Static Resources for each less files you want to use
 3. Set up the module's options with an href link to the compiler and your less resources, using $Resource as needed.
 
-    window.less_options =  {
-        compiler: 	"{!$Resource.less_compiler}", // Resource link towards the compiler
-        files:		["{!$Resource.less_hyx}", "{!$Resource.less_os}"] // An array of links 
-    }
+>    window.less_options =  {
+>        compiler: 	"{!$Resource.less_compiler}", // Resource link towards the compiler
+>        files:		["{!$Resource.less_hyx}", "{!$Resource.less_os}"] // An array of links 
+>    }
 
 
